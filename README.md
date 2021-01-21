@@ -1,24 +1,9 @@
-# README
+# why
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+フロントエンドとバックエンドで別々に開発することで、実際の業務を想定した開発を経験することが目的です。
+※このリポジトリはバックエンド用です。
 
-Things you may want to cover:
+# about
 
-* Ruby version
+railsのAPIモードで開発します。
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
