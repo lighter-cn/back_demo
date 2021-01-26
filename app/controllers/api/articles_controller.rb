@@ -8,7 +8,7 @@ class Api::ArticlesController < ApplicationController
 
   def show
     # test
-    # example) curl http://localhost:3000/api/article/:id
+    # example) curl http://localhost:3000/api/articles/:id
     begin
       @article = Article.find(params[:id])
       render json: @article
@@ -51,6 +51,11 @@ class Api::ArticlesController < ApplicationController
     rescue => exception
       render json: exception
     end
+  end
+
+  def title
+    @articles = Article.getAllTitle
+    render json: @articles
   end
 
   private
