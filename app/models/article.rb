@@ -4,7 +4,7 @@ class Article < ApplicationRecord
   validates :text,     presence: true
   validates :category, presence: true
 
-  # すべてのタイトルを取得する
+  # すべてのタイトルのみを配列にして返す
   def self.getAllTitle
     articles = []
     self.all.each do |article|
